@@ -88,10 +88,10 @@
     </sap:WorkflowViewStateService.ViewState>
     <Assign sap:VirtualizedContainerService.HintSize="434,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
-        <OutArgument x:TypeArguments="ui:LogLevel">[GlobalVariablesNamespace.GlobalVariables.G_Variable]</OutArgument>
+        <OutArgument x:TypeArguments="ui:LogLevel">[G_Variable]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="ui:LogLevel">[LogLevel.Error]</InArgument>
+        <InArgument x:TypeArguments="ui:LogLevel">[Loglevel.Error]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[LogLevel.Error]" />
