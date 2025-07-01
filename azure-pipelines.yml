@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: UiPathInstallPlatform@5
   inputs:
-    cliVersion: 'WIN_23.10.8894.39673'
+    cliVersion: 'WIN_23.10.9076.19285'
 - task: UiPathPack@5
   inputs:
     versionType: 'AutoVersion'
