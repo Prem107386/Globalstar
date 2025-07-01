@@ -26,6 +26,7 @@ steps:
     projectJsonPath: '$(Build.SourcesDirectory)'
     orchestratorConnection: 'Global'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    traceLevel: 'Verbose'
 
 - task: UiPathDeploy@5
   inputs:
